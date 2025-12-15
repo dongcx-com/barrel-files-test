@@ -8,7 +8,7 @@
     "rm-node-modules1": "pnpm -F tsdown exec rimraf node_modules",
     "rm-node-modules2": "pnpm -F webpack exec rimraf node_modules",
     "rm-node-modules3": "pnpm -F vite exec rimraf node_modules",
-    "release": "changelogen --release --prerelease --push"
+    "release": "changelogen --patch --push"
   },
   "keywords": [],
   "author": "",

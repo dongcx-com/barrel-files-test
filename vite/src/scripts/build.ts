@@ -11,9 +11,6 @@ const config = defineConfig({
       entry: resolve(__dirname, "..", "index.ts"),
       name: "@vite/barrel-files-test",
       fileName: "index"
-    },
-    rollupOptions:{
-      cache: false
     }
   },
 });
