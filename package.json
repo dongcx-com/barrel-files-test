@@ -1,6 +1,6 @@
 {
   "name": "barrel-files-test",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "rm-node-modules1": "pnpm -F tsdown exec rimraf node_modules",
     "rm-node-modules2": "pnpm -F webpack exec rimraf node_modules",
     "rm-node-modules3": "pnpm -F vite exec rimraf node_modules",
-    "release": ""
+    "release": "changelogen --release --prerelease --push"
   },
   "keywords": [],
   "author": "",
