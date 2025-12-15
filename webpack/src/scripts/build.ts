@@ -1,4 +1,4 @@
-import { webpack } from "webpack";
+import { library, webpack } from "webpack";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
@@ -15,6 +15,10 @@ const config = smp.wrap({
     path: resolve(__dirname, "../../", "dist"),
     filename: "bundle.js",
     clean: true,
+    library:{
+      name: "@webpack/barrel-files-test",
+      type: "umd"
+    }
   },
   mode: "production",
   resolve: {
