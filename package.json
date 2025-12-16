@@ -1,6 +1,6 @@
 {
   "name": "barrel-files-test",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,9 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
+    "@babel/preset-env": "^7.28.5",
     "@types/node": "^25.0.2",
+    "babel-loader": "^10.0.0",
     "changelogen": "^0.6.2",
     "npm-run-all2": "^8.0.4",
     "rimraf": "^6.1.2",

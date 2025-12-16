@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.0.3
+
+[compare changes](https://github.com/dongcx-com/barrel-files-test/compare/v1.0.1...v1.0.3)
+
+### 🩹 Fixes
+
+- **root:** Edit release script --no-commit ([1061df6](https://github.com/dongcx-com/barrel-files-test/commit/1061df6))
+- **tsdown:** Resolve entry path ([3afa0bf](https://github.com/dongcx-com/barrel-files-test/commit/3afa0bf))
+
+### ❤️ Contributors
+
+- Dongcx-com <2578054246@qq.com>
+
+## v1.0.2
+
+[compare changes](https://github.com/dongcx-com/barrel-files-test/compare/v1.0.1...v1.0.2)
+
+### 🩹 Fixes
+
+- **root:** Edit release script --no-commit ([1061df6](https://github.com/dongcx-com/barrel-files-test/commit/1061df6))
+- **tsdown:** Resolve entry path ([3afa0bf](https://github.com/dongcx-com/barrel-files-test/commit/3afa0bf))
+
+### ❤️ Contributors
+
+- Dongcx-com <2578054246@qq.com>
+
 ## v1.0.1
 
 [compare changes](https://github.com/dongcx-com/barrel-files-test/compare/v1.0.2...v1.0.1)

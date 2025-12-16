@@ -31,6 +31,22 @@ const config = smp.wrap({
       openAnalyzer: false, // 不自动打开浏览器
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        use: [
+          {
+            loader: "babel-loader",
+            options: {
+              presets: ["@babel/preset-env"],
+            },
+          },
+        ],
+        exclude: /node_modules/,
+      },
+    ],
+  },
 })
 
 const build = webpack(config);
